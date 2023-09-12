@@ -23,11 +23,11 @@ bool exibirMenu = true;
 while (exibirMenu)
 {
     Console.Clear();
-    Console.WriteLine("Digite a sua opção:");
-    Console.WriteLine("1 - Cadastrar veículo");
-    Console.WriteLine("2 - Remover veículo");
-    Console.WriteLine("3 - Listar veículos");
-    Console.WriteLine("4 - Encerrar");
+    Console.WriteLine("\nDigite a sua opção:");
+    Console.WriteLine("[1] - Cadastrar veículo");
+    Console.WriteLine("[2] - Remover veículo");
+    Console.WriteLine("[3] - Listar veículos");
+    Console.WriteLine("[4] - Encerrar");
 
     switch (Console.ReadLine())
     {
@@ -48,11 +48,11 @@ while (exibirMenu)
             break;
 
         default:
-            Console.WriteLine("Opção inválida");
+            Console.WriteLine("Opção inválida!");
             break;
     }
 
-    Console.WriteLine("Pressione uma tecla para continuar");
+    Console.WriteLine("~ Pressione uma tecla para continuar ~");
     Console.ReadLine();
 }
 
